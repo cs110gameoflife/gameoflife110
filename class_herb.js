@@ -1,0 +1,4 @@
+class Herb extends Livcreature {
+
+
+}

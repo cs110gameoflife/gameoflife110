@@ -1,0 +1,5 @@
+class Predator extends Livcreature {
+ 
+
+  
+}

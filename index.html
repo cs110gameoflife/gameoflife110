@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Game of Life</title>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.js"></script>
+        <script src="class_livcreature.js"></script>
+        <script src="class_grass.js"></script>
+        <script src="class_herb.js"></script>
+        <script src="class_predator.js"></script>
+        <script src="class_super.js"></script>
+        <script src="class_generator.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+
+            <p id="season">
+                    Winter     
+                 </p>
+                 <div class="container">
+                     <div id="canvas">
+                     <p id="statistics">
+           The current number of grasses: 0 <br>
+           The current number of herbivores: 0<br>
+           The current number of predators: 0<br>
+           The current number of super animals: 0<br>
+           The number of grasses eaten by herbivores: 0<br>
+           The number of herbivores eaten by predators: 0<br>
+           The number of grasses eaten by super animals: 0 <br>
+           The number of herbivores eaten by super animals: 0<br>
+           The number of predators eaten by super animals: 0<br>
+           Years passed: 0<br>
+           The percentage of herbivores dead as a result of hunger: 0<br>
+           The percentage of predators dead as a result of hunger: 0<br>
+           The number of dead super animals: 0</p>
+             
+             </div>
+         
+         </div>
+                 <br><br>
+                 <div class="container">
+                     <div id="images">
+                         <img src="Image/image1.png" width="400px" height="200px">
+                         <img src="Image/image2.png" width="550px" height="200px">
+                     </div>
+         
+                 </div>
+             </div>
+
+
+<script src="script.js"></script>
+    </body>    
+</html>
